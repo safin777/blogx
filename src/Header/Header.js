@@ -7,8 +7,7 @@ const Header = () => {
         <span className="headerTitleSmall">React and Node</span>
         <span className="headerTitleLarge">Blog</span>
       </div>
-
-      <img className="headerImage" src="/images/header/nature-4.png" alt="" />
+      <img className="headerImage" src= {require('../images/header/wallhaven-3zgdd3.jpg')} alt="" />
     </div>
   )
 }

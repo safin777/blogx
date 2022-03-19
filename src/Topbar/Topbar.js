@@ -21,7 +21,7 @@ const Topbar = () => {
         </ul>
       </div>
       <div className="topRight">
-        <img className='topImage' src="/images/profile/p-1.jpg" alt="" />
+        <img className='topImage' src={require('../images/profile/p-1.jpg')} alt="" />
         <i className="searchIcon fa-solid fa-magnifying-glass"></i>
       </div>
     </div>
