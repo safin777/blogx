@@ -1,8 +1,8 @@
 .topbar {
     width: 100%;
     height: 55px;
-    background-color: black;
-    color: greenyellow;
+    background-color: rgb(247, 247, 247);
+
     position: sticky;
     top: 0;
     display: flex;
@@ -14,13 +14,52 @@
     font-family: "Varela Round", sans-serif; */
 }
 
-.topRight, .topLeft {
+.topRight,
+.topLeft {
     flex: 3;
-    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
 
 .topCenter {
     flex: 6;
-    background-color: rgb(66, 218, 167);
+    text-transform: uppercase;
+}
+
+.topImage {
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.topIcon {
+    color: rgb(63, 48, 48);
+    height: 30px;
+    width: 30px;
+    margin-left: 8%;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.topList {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.topListItem {
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.searchIcon {
+    font-size: 24px;
+    cursor: pointer;
+    margin-left: 38px;
 }
