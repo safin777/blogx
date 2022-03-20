@@ -1,12 +1,12 @@
 import React from 'react'
 import Topbar from './Topbar/Topbar'
-import Header from './Header/Header'
+import Home from './Pages/home/Home'
 
 const App = () => {
   return (
     <>
       <Topbar />
-      <Header />
+      <Home/>
     </>
   )
 }

@@ -1,0 +1,33 @@
+.sidebar {
+    flex: 3;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    background-color:#fbfbfb ;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.sidebarImage {
+    height:160px;
+    width: 170px;
+    display: flex;
+    margin-top: 15px;
+    object-fit: cover;
+}
+
+.sidebarTitle{
+  margin: 10px;
+  padding:8px; 
+  width:80%;
+  border-top: 2px solid #a7a4a4;
+  border-bottom:2px solid #a7a4a4;
+  font-size: 12px;
+  font-family: "Varela Round", sans-serif;
+  color: #222;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+}
+
